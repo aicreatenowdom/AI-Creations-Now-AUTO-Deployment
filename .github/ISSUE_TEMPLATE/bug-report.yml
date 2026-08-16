@@ -1,0 +1,57 @@
+name: AUTO Deployment defect report
+description: Report a reproducible, non-sensitive AUTO Deployment problem
+title: "[Bug] "
+labels: ["bug", "needs-review"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Do not post passwords, tokens, tenant IDs, license keys, customer data, or private logs. Use the official private support channel for sensitive matters.
+  - type: input
+    id: version
+    attributes:
+      label: Product version
+      placeholder: "Production 4.7"
+    validations:
+      required: true
+  - type: input
+    id: windows
+    attributes:
+      label: Windows edition and build
+      placeholder: "Example: Windows 11 Pro 24H2, build 26100"
+    validations:
+      required: true
+  - type: dropdown
+    id: admin
+    attributes:
+      label: Was the application run as administrator?
+      options:
+        - "Yes"
+        - "No"
+        - "Not applicable"
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What happened?
+      description: Describe the exact screen or workflow stage and the complete error message.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Safe reproduction steps
+      placeholder: |
+        1. Open...
+        2. Select...
+        3. Observe...
+    validations:
+      required: true
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Privacy confirmation
+      options:
+        - label: I removed credentials, tenant identifiers, license keys, customer data, and other private information.
+          required: true

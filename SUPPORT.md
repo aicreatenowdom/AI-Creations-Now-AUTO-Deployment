@@ -1,27 +1,12 @@
 # AUTO Deployment Support
 
-AUTO Deployment is proprietary commercial software delivered and licensed directly by AI Creations Now Software Development.
-
-## Official support routes
+## Official private support
 
 - Product page: https://aicreatenow.com/autodeploy.html
-- Company website: https://aicreatenow.com/
+- Company support: https://aicreatenow.com/faq.html
+- Email: info@aicreatenow.com
 - Toll-free: 1-866-315-4750
 
-## Before requesting help
+AUTO Deployment is commercial proprietary software. Purchase, delivery, licensing, activation, installation, customer configuration, and security-sensitive matters must use the private support channels above.
 
-Have the following available:
-
-- Production version;
-- licensed machine name;
-- Windows edition and build;
-- affected module or audit number;
-- sanitized error or report text;
-- date and approximate time of the event; and
-- whether the issue began after a Windows, security-software, networking, or account change.
-
-Do not post license keys, credentials, MFA codes, private IP allowlists, customer information, email API secrets, or unredacted security logs in a public issue.
-
-## GitHub scope
-
-This repository provides public product information and official links. It is not the product delivery repository and does not contain application binaries or proprietary source code.
+Public GitHub issues are limited to non-sensitive documentation corrections and reproducible product defects. Never publish license information, server names, IP addresses, administrator names, security logs, credentials, customer data, or private reports.

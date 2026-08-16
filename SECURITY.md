@@ -1,18 +1,7 @@
-# Security Policy
+# AUTO Deployment Security Policy
 
-AUTO Deployment contains security, monitoring, reporting, and controlled administrative workflows. Security-sensitive reports must be handled privately.
+AUTO Deployment operates in administrator-managed Windows environments. Do not disclose credentials, license information, server identifiers, public IP addresses, firewall data, security logs, customer information, or vulnerabilities in a public issue.
 
-Do not publish:
+Report security concerns privately through https://aicreatenow.com/, info@aicreatenow.com, or 1-866-315-4750.
 
-- passwords or MFA codes;
-- license keys;
-- API credentials;
-- private IP allowlists;
-- server names tied to customers;
-- unredacted security logs;
-- customer email addresses; or
-- exploitable implementation details.
-
-Report private security matters to **info@aicreatenow.com** and include the Production version, Windows edition/build, affected module, reproduction steps, and sanitized evidence.
-
-Official product delivery comes only from AI Creations Now Software Development. No executable is distributed from this public repository.
+No AUTO Deployment executable is published in this repository. Official licensed delivery is provided only through AI Creations Now after purchase. Treat files from mirrors, unsolicited links, or unofficial repositories as untrusted.
