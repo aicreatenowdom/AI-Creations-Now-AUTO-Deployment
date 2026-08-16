@@ -1,0 +1,23 @@
+name: Product question
+description: Ask a non-sensitive question about AUTO Deployment capabilities or compatibility.
+title: "[Question] "
+body:
+  - type: input
+    id: windows
+    attributes:
+      label: Windows edition and build
+      placeholder: Windows Server 2025 or Windows 11 Pro
+  - type: textarea
+    id: question
+    attributes:
+      label: Question
+      description: Do not include license keys, passwords, private IPs, API credentials, or customer data.
+    validations:
+      required: true
+  - type: checkboxes
+    id: safe
+    attributes:
+      label: Safety confirmation
+      options:
+        - label: I removed credentials, license keys, private customer data, and sensitive security information.
+          required: true
